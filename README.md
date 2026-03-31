@@ -1,11 +1,6 @@
 <div align="center">
 
-<img
-  src="assets/csoftware-logo.png"
-  alt="CSOFTWARE"
-  width="220"
-  style="background:#ffffff;padding:14px;border-radius:18px;box-shadow:0 8px 24px rgba(0,0,0,0.08);"
-/>
+<img src="./assets/csoftware-logo.png" width="220" />
 
 # HEXSTRIKE + VILLAGER_AI MCP
 
