@@ -177,7 +177,7 @@ export GITHUB_TOKEN="your-github-token-here"
 ./tests/run_tests.sh
 ```
 
-The test suite verifies:
+The test suite verifies:   
 - ✅ Environment setup and dependencies
 - ✅ Villager core imports and functionality
 - ✅ MCP server initialization

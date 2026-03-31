@@ -1,13 +1,40 @@
 {
   "mcpServers": {
-    "hexstrike-ai": {
-      "command": "python3",
+    "villager-proper": {
+      "command": "wsl.exe",
       "args": [
-        "/path/hexstrike_mcp.py",
-        "--server",
-        "http://IPADDRESS:8888"
+        "-d",
+        "Ubuntu",
+        "-e",
+        "/home/leona/projetos/villager-ai-hexstrike-integration/villager-venv-new/bin/python3",
+        "/home/leona/projetos/villager-ai-hexstrike-integration/src/villager_ai/mcp/villager_proper_mcp.py",
+        "--debug"
       ],
-      "description": "HexStrike AI v6.0 - Advanced Cybersecurity Automation Platform. Turn off alwaysAllow if you dont want autonomous execution!",
+      "description": "Villager AI Framework - AI-Driven Cybersecurity Automation (WSL Ubuntu)",
+      "timeout": 300,
+      "alwaysAllow": [],
+      "env": {
+        "PYTHONUNBUFFERED": "1",
+        "PYTHONPATH": "/home/leona/projetos/villager-ai-hexstrike-integration",
+        "VILLAGER_ROOT": "/home/leona/projetos/villager-ai-hexstrike-integration",
+        "LLM_PROVIDER": "ollama",
+        "OLLAMA_BASE_URL": "http://localhost:11434",
+        "OLLAMA_MODEL": "deepseek-r1"
+      }
+    },
+    "hexstrike-ai": {
+      "command": "wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu",
+        "-e",
+        "/home/leona/projetos/hexstrike-ai/hexstrike-env/bin/python3",
+        "/home/leona/projetos/hexstrike-ai/hexstrike_mcp.py",
+        "--server",
+        "http://127.0.0.1:8888",
+        "--debug"
+      ],
+      "description": "HexStrike AI - Advanced Cybersecurity Tools (WSL Ubuntu)",
       "timeout": 300,
       "alwaysAllow": []
     }

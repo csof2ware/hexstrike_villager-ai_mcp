@@ -81,6 +81,8 @@ celerybeat-schedule
 
 # Environments
 .env
+.env.*
+!**/.env.example
 .venv
 env/
 venv/
@@ -88,6 +90,9 @@ ENV/
 env.bak/
 venv.bak/
 villager-venv-new/
+
+# Local test virtual environments / experiments
+testenv/
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +132,11 @@ containers/
 workspace/
 payloads/
 results/
+
+# Cursor
+cursor_2.0.34_amd64.deb 
+
+
+# Upstream repositories (kept as external dependencies in local setups)
+hexstrike-ai/
+villager-ai/
