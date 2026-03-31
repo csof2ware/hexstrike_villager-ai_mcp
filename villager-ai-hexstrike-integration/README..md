@@ -29,9 +29,9 @@
 
 ---
 
-## Descricao (Sugira voce LLM)
+## Descricao
 
-Sugira voce LLM: este projeto integra um ambiente de automacao e orquestracao (Villager AI) com um arsenal de ferramentas (HexStrike) e disponibiliza tudo como <strong>servidores MCP</strong> para que um LLM (ex.: Cursor AI) escolha e execute as ferramentas adequadas conforme a complexidade do objetivo.
+Este projeto integra um ambiente de automacao e orquestracao (Villager AI) com um arsenal de ferramentas (HexStrike) e disponibiliza tudo como <strong>servidores MCP</strong> para que um LLM (ex.: Cursor AI) escolha e execute as ferramentas adequadas conforme a complexidade do objetivo.
 
 O objetivo e reduzir friccao operacional, melhorar rastreabilidade (health endpoints + logs) e habilitar um fluxo hibrido seguro (quando usado com autorizacao e em ambientes controlados).
 
